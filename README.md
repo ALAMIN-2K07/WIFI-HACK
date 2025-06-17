@@ -1,5 +1,24 @@
-
 # Setup
+```
+pkg update && pkg upgrade -y
+pkg install git -y
+pkg install python -y
+git clone https://github.com/ALAMIN-2K07/WIFI-HACK
+cd WIFI-HACK
+ls
+chmod +x oneshot.py
+ls
+bash installer.sh
+```
+```
+cd WIFI-HACK
+```
+```
+ls
+```
+```
+sudo python oneshot.py -i wlan0 -K
+```
 
 ## [Termux](https://termux.com/)
 Please note that root access is required.  
