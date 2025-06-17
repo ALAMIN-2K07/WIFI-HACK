@@ -30,11 +30,11 @@ ls
 ```
 sudo python oneshot.py -i wlan0 -K
 ```
-এখন আমরা BSSID কপি করব, যা দেখতে কিছুটা MAC অ্যাড্রেসের মতো হবে। Example: B4:0F:3B:57:F0:90 -B
+Now we will copy the BSSID, which will look a bit like a MAC address. Example: B4:0F:3B:57:F0:90 -B
 
-তারপর আমরা Ctrl + C চাপব, এতে টুলটি বন্ধ হয়ে যাবে।
+Then we will press Ctrl + C, which will close the tool.
 
-তারপর আমরা ```cd```কমান্ড দিয়ে হোম ডিরেক্টরিতে চলে যাব।
+Then we will move to the home directory with the ```cd``` command.
 ```
 cd WIFI-HACK
 ```
@@ -42,9 +42,13 @@ cd WIFI-HACK
 sudo python oneshot.py -i wlan0 -b (BSSID) -B
 ```
 
-## [Termux](https://termux.com/)
-Please note that root access is required.  
-#### Download BusyBox....https://github.com/W8SOJIB/W8RootWifiHK/raw/main/BusyBox%20Free_64.apk
+## [What is needed]
+Mobile must be rooted.
+
+need to flash the Busy Box module in the magisk app.
+[BusyBox](https://downloads.sourceforge.net/project/magiskfiles/module-uploads/busybox-ndk-13016.zip?ts=gAAAAABoUawiHNA0RcCUZkQCmzFX1VHF8eXVr8-mDAw0nSBMpqcEjeIdA5op6ADzSTF99N89Qbu0w5JOghLJU-hm68MYOX3P7w%3D%3D&use_mirror=netix&r=https%3A%2F%2Fmagiskmodule.gitlab.io%2F)
+
+When giving the last command, you need to turn off WiFi and data connection and turn on hotspot.
 
 # Usage
 ```
@@ -98,5 +102,3 @@ Launch online WPS bruteforce with the specified first half of the PIN:
  Try disabling Wi-Fi in the system settings and kill the Network manager. Alternatively, you can try running OneShot with ```--iface-down``` argument.
 #### The wlan0 interface disappears when Wi-Fi is disabled on Android devices with MediaTek SoC
  Try running OneShot with the `--mtk-wifi` flag to initialize Wi-Fi device driver.
-# Acknowledgements
-
