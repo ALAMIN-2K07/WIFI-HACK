@@ -9,6 +9,9 @@ termux-setup-storage
 # Switch to root (if not already)
 #tsu
 
+# install pyfiglet for banner
+pip install pyfiglet
+
 # Continue with the rest of the setup
 pkg install -y root-repo 
 pkg install -y git tsu python wpa-supplicant pixiewps iw

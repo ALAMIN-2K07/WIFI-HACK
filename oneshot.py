@@ -1083,7 +1083,7 @@ Example:
 def show_alamin_banner():
     if Figlet:
         f = Figlet(font='slant')
-        print(f.renderText('WIFI HACK'))
+        print(f.renderText('WIFI  HACK'))
     else:
         print('=== WIFI HACK ===')
 
