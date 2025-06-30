@@ -4,10 +4,10 @@
 termux-setup-storage
 
 # Install tsu for root access
-pkg install -y tsu
+
 
 # Switch to root (if not already)
-tsu
+
 
 # Continue with the rest of the setup
 pkg install -y root-repo 
