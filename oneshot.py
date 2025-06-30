@@ -1083,9 +1083,9 @@ Example:
 def show_alamin_banner():
     if Figlet:
         f = Figlet(font='slant')
-        print(f.renderText(' WIFI HACK '))
+        print(f.renderText('WIFI HACK'))
     else:
-        print('=== MOHAMMAD ALAMIN ===')
+        print('=== WIFI HACK ===')
 
 
 if __name__ == '__main__':
@@ -1202,6 +1202,7 @@ if __name__ == '__main__':
 
     while True:
         try:
+        os.system('clear')
             show_alamin_banner()
             companion = Companion(args.interface, args.write, print_debug=args.verbose)
             if args.pbc:
