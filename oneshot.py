@@ -1079,10 +1079,8 @@ Example:
     %(prog)s -i wlan0 -b 00:90:4C:C1:AC:21 -K
 """
 
-clear
-
-
 def show_alamin_banner():
+os.system("clear")
     if Figlet:
         f = Figlet(font='slant')
         print(f.renderText('   ▗▖ ▗▖▗▄▄▄▖▗▄▄▄▖▗▄▄▄▖▗▖ ▗▖ ▗▄▖  ▗▄▄▖▗▖ ▗▖\n   ▐▌ ▐▌  █  ▐▌     █  ▐▌ ▐▌▐▌ ▐▌▐▌   ▐▌▗▞▘\n   ▐▌ ▐▌  █  ▐▛▀▀▘  █  ▐▛▀▜▌▐▛▀▜▌▐▌   ▐▛▚▖ \n   ▐▙█▟▌▗▄█▄▖▐▌   ▗▄█▄▖▐▌ ▐▌▐▌ ▐▌▝▚▄▄▖▐▌ ▐▌'))
