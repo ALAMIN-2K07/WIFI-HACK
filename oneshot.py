@@ -1080,7 +1080,6 @@ Example:
 """
 
 def show_alamin_banner():
-os.system("clear")
     if Figlet:
         f = Figlet(font='slant')
         print(f.renderText('   ▗▖ ▗▖▗▄▄▄▖▗▄▄▄▖▗▄▄▄▖▗▖ ▗▖ ▗▄▖  ▗▄▄▖▗▖ ▗▖\n   ▐▌ ▐▌  █  ▐▌     █  ▐▌ ▐▌▐▌ ▐▌▐▌   ▐▌▗▞▘\n   ▐▌ ▐▌  █  ▐▛▀▀▘  █  ▐▛▀▜▌▐▛▀▜▌▐▌   ▐▛▚▖ \n   ▐▙█▟▌▗▄█▄▖▐▌   ▗▄█▄▖▐▌ ▐▌▐▌ ▐▌▝▚▄▄▖▐▌ ▐▌'))
