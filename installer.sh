@@ -21,4 +21,10 @@ chmod +x oneshot.py
 # Copy wifihack.sh to Termux home directory
 cp wifihack.sh /data/data/com.termux/files/home/
 
-printf "###############################################\n#  All done! Now you can run OneShot with\n#  sudo python neshot.py -i wlan0 -K\n#\n#  ADMIN: MOHAMMAD ALAMIN\n#\n###############################################\n"
+printf "
+
+ ▗▄▄▖▗▄▄▄▖▗▄▄▄▖▗▖ ▗▖▗▄▄▖     ▗▄▄▄   ▗▄▖ ▗▖  ▗▖▗▄▄▄▖
+▐▌   ▐▌     █  ▐▌ ▐▌▐▌ ▐▌    ▐▌  █ ▐▌ ▐▌▐▛▚▖▐▌▐▌   
+ ▝▀▚▖▐▛▀▀▘  █  ▐▌ ▐▌▐▛▀▘     ▐▌  █ ▐▌ ▐▌▐▌ ▝▜▌▐▛▀▀▘
+▗▄▄▞▘▐▙▄▄▖  █  ▝▚▄▞▘▐▌       ▐▙▄▄▀ ▝▚▄▞▘▐▌  ▐▌▐▙▄▄▖
+         Run: sudo python neshot.py -i wlan0 -K"
