@@ -1083,7 +1083,7 @@ Example:
 def show_alamin_banner():
     if Figlet:
         f = Figlet(font='slant')
-        print(f.renderText('MOHAMMAD ALAMIN'))
+        print(f.renderText('  WIFI  '))
     else:
         print('=== MOHAMMAD ALAMIN ===')
 
