@@ -1202,7 +1202,6 @@ if __name__ == '__main__':
 
     while True:
         try:
-        os.system('clear')
             show_alamin_banner()
             companion = Companion(args.interface, args.write, print_debug=args.verbose)
             if args.pbc:
