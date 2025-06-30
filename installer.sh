@@ -30,4 +30,4 @@ printf "
   ▐▌   ▐▌     █  ▐▌ ▐▌▐▌ ▐▌    ▐▌  █ ▐▌ ▐▌▐▛▚▖▐▌▐▌   
    ▝▀▚▖▐▛▀▀▘  █  ▐▌ ▐▌▐▛▀▘     ▐▌  █ ▐▌ ▐▌▐▌ ▝▜▌▐▛▀▀▘
   ▗▄▄▞▘▐▙▄▄▖  █  ▝▚▄▞▘▐▌       ▐▙▄▄▀ ▝▚▄▞▘▐▌  ▐▌▐▙▄▄▖
-         Run: sudo python neshot.py -i wlan0 -K\n"
+        Run: sudo python oneshot.py -i wlan0 -K\n"
